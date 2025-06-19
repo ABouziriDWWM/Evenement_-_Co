@@ -1,0 +1,756 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: black;
+  /* letter-spacing: 0.05em; */
+}
+
+/* @@ */
+/* ******************* */
+/* ******************* */
+/* ******************* */
+/* barre de navigation */
+
+.nav {
+  /* change de colonne en ligne par defaut */
+  display: flex;
+  /* pour voir le conteneur */
+  height: 70px;
+  /* pour fixer la navbar */
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: #4ad291;
+  /* justify-content: center; */
+  padding-top: 10px;
+  margin-bottom: 40px;
+}
+
+.element {
+  margin-left: 5vh;
+}
+
+.nav .element a {
+  color: black;
+  font-size: 1.8em;
+  /* text-align: center; */
+  text-decoration: none;
+}
+
+.footer .element a {
+  color: black;
+  font-size: 1.1em;
+  /* text-align: center; */
+  text-decoration: none;
+}
+
+.element img {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  height: 60px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #66ae8c;
+}
+
+/* @@ */
+/* ******************* */
+/* ******************* */
+/* ******************* */
+/* les sections */
+
+.espacement {
+  height: 200vh;
+}
+
+.box {
+  margin-left: 2%;
+  height: auto;
+
+  width: 48%;
+
+  float: left;
+
+  text-align: left;
+  min-height: 50%;
+}
+
+/* @@ */
+/* ******************* */
+/* ******************* */
+/* ******************* */
+/* Accueil */
+
+/* hero */
+.hero {
+  height: 70vh;
+  margin-top: 30vh;
+  margin-bottom: 60vh;
+}
+
+.hero b {
+  font-size: 2.2em;
+}
+
+.hero p {
+  font-size: 1.5em;
+}
+
+.hero .boutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  height: 10vh;
+  width: 60vh;
+  text-align: center;
+  margin-top: 10vh;
+  /* border-radius: 40px; */
+}
+
+.hero img {
+  width: 90vh;
+  height: 70vh;
+  border-radius: 30px;
+  float: right;
+}
+
+/* propos */
+.propos {
+  height: 140vh;
+  margin-top: 20vh;
+  margin-bottom: 40vh;
+}
+
+.propos b {
+  font-size: 2.2em;
+}
+
+.propos .galerie {
+  width: 100%;
+  padding-top: 3vh;
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* centre horizontalement */
+  align-items: center;
+  justify-content: center;
+}
+
+.propos .galery {
+  display: inline-block;
+  border-radius: 20px;
+  border: 4px solid #00a651;
+  margin: 5px;
+  width: 32%;
+  height: 120vh;
+  margin-bottom: 5vh;
+  margin-right: 2vh;
+  overflow: hidden;
+  background: #0097b2;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 151, 178, 1) 0%,
+    rgba(126, 217, 87, 1) 100%
+  );
+
+  position: relative;
+}
+
+.propos .description {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.propos h3 {
+  text-align: center;
+  font-size: 2.2em;
+}
+
+.propos .boutton {
+  position: absolute;
+  bottom: 10px;
+  left: 35%;
+  font-size: 1.5em;
+  margin: 5% auto;
+  padding-top: 3vh;
+  text-align: center;
+  /* vertical-align: middle; */
+  background: #0097b2;
+  background: linear-gradient(
+    88deg,
+    rgba(0, 151, 178, 1) 0%,
+    rgba(126, 217, 87, 1) 100%
+  );
+  height: 10vh;
+  width: 25vh;
+}
+
+.propos img {
+  /* width 100% de largeur galery */
+  margin: 2.5%;
+
+  width: 95%;
+  height: 45%;
+  border-radius: 20px;
+}
+
+/* temoignage */
+.temoignage {
+  margin-top: 30vh;
+  height: 130vh;
+}
+
+.temoignage b {
+  font-size: 2.2em;
+}
+
+.temoignage p {
+  margin-top: 0px;
+  font-family: "Georgia", serif;
+  font-size: 1.5em;
+  font-style: italic; /* Style italique */
+  color: #333;
+}
+
+.temoignage img {
+  height: 80px;
+  width: 70px;
+  padding-bottom: 10%;
+  margin-right: 15%;
+}
+
+.temoignage .titre {
+  margin: 10px;
+  width: 30vh;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
+.box2 {
+  margin-left: 2%;
+  height: auto;
+
+  width: 48%;
+
+  float: left;
+
+  text-align: left;
+  min-height: 50%;
+}
+
+/* @@ */
+/* ******************* */
+/* ******************* */
+/* ******************* */
+/* Programme */
+
+/* section appel */
+.appel {
+  height: 70vh;
+  margin-top: 30vh;
+}
+
+.appel b {
+  font-size: 2.2em;
+}
+
+.appel p {
+  font-size: 1.5em;
+}
+
+.appel .boutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  height: 10vh;
+  width: 35vh;
+  text-align: center;
+  margin-top: 20vh;
+  /* border-radius: 40px; */
+  background: #0097b2;
+  background: linear-gradient(
+    88deg,
+    rgba(0, 151, 178, 1) 0%,
+    rgba(126, 217, 87, 1) 100%
+  );
+}
+
+.appel img {
+  width: 90vh;
+  border-radius: 30px;
+}
+
+/* section calendrier */
+.calendrier {
+  height: 260vh;
+  margin-top: 20vh;
+  margin-bottom: 40vh;
+}
+
+.calendrier b {
+  font-size: 2.2em;
+}
+
+.calendrier .galerie {
+  width: 100%;
+  padding-top: 10vh;
+  margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  /* centre horizontalement */
+  align-items: center;
+  justify-content: center;
+}
+
+.calendrier .galery {
+  display: inline-block;
+  border-radius: 20px;
+  border: 4px solid #00a651;
+  margin: 5px;
+  width: 85vh;
+  height: 120vh;
+  margin-bottom: 5vh;
+  margin-right: 8vh;
+  overflow: hidden;
+  background: #0097b2;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 151, 178, 1) 0%,
+    rgba(126, 217, 87, 1) 100%
+  );
+
+  position: relative;
+}
+
+.calendrier .description {
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.calendrier h3 {
+  text-align: center;
+  font-size: 2.2em;
+}
+
+.calendrier .boutton {
+  position: absolute;
+  bottom: 10px;
+  left: 35%;
+  font-size: 1.5em;
+  margin: 5% auto;
+  padding-top: 3vh;
+  text-align: center;
+  /* vertical-align: middle; */
+  background: #0097b2;
+  background: linear-gradient(
+    88deg,
+    rgba(0, 151, 178, 1) 0%,
+    rgba(126, 217, 87, 1) 100%
+  );
+  height: 10vh;
+  width: 25vh;
+}
+
+/* .calendrier .galery:hover {
+  border: 4px solid rgb(22, 93, 137);
+  border-radius: 50px;
+} */
+
+.calendrier img {
+  /* width 100% de largeur galery */
+  margin: 2.5%;
+
+  width: 95%;
+  height: 45%;
+  border-radius: 20px;
+}
+
+.calendrier .date {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* @@ */
+/* ******************* */
+/* ******************* */
+/* ******************* */
+/* contact */
+
+.contact {
+  height: 70vh;
+  margin-top: 30vh;
+}
+
+.contact b {
+  font-size: 2.2em;
+}
+
+.contact p {
+  font-size: 1.5em;
+}
+
+.box .boutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  height: 10vh;
+  width: 35vh;
+  text-align: center;
+  margin-top: 20vh;
+  /* border-radius: 40px; */
+  background: #0097b2;
+  background: linear-gradient(88deg, rgba(0, 151, 178, 1) 0%, #69d63a 100%);
+}
+
+/* cssgradient.io pour tout les facon de couleurs */
+
+/* formulaire */
+.formulaire {
+  height: 70vh;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+
+.formulaire b {
+  font-size: 2.2em;
+}
+
+.espacement_formulaire {
+  height: 5vh;
+}
+
+.box label {
+  font-size: 1.5em;
+}
+
+.box input {
+  height: 10vh;
+  width: 50vh;
+}
+
+.box textarea {
+  height: 30vh;
+  width: 60vh;
+}
+
+/* coordonnees */
+.coordonnees {
+  margin-top: 30vh;
+}
+
+.coordonnees b {
+  font-size: 2.2em;
+}
+
+.coordonnees p {
+  font-size: 1.5em;
+}
+
+/* Mentions legales */
+.mentions_legales {
+  margin-top: 50vh;
+  margin-bottom: 30vh;
+}
+
+.mentions_legales b {
+  font-size: 2.2em;
+}
+
+.mentions_legales p {
+  font-size: 1.5em;
+}
+
+/* @@ */
+/* ******************* */
+/* ******************* */
+/* ******************* */
+/* Footer */
+
+.footer {
+  display: flex;
+  /* pour voir le conteneur */
+  height: 70px;
+  position: static;
+  padding-top: 5px;
+  background-color: #00a651;
+  left: 0px;
+  bottom: 0px;
+}
+
+.footer .sousElement {
+  padding-top: 2px;
+  width: 80vh;
+  height: 20px;
+}
+
+.footer .element img {
+  height: 40px;
+  border-radius: 10px;
+}
+
+/* @@ */
+/* ******************* */
+/* ******************* */
+/* ******************* */
+/* Media Queries */
+
+/* pour pc? */
+@media (max-width: 1500px) {
+}
+
+/* pour calendrier accueil */
+@media (max-width: 1460px) {
+  .hero .box img {
+    width: 90%;
+    height: 70%;
+  }
+}
+
+/* pour formulaire contact */
+/* et pour tel */
+@media (max-width: 750px) {
+  /* Barre de navigation */
+  .nav .element a {
+    font-size: 1.4em;
+  }
+
+  .element {
+    margin-left: 2vh;
+  }
+
+  /* @@ */
+  /* ******************* */
+  /* ******************* */
+  /* ******************* */
+  /* Media Q Accueil */
+
+  /* hero */
+  .hero {
+    margin-top: 10vh;
+  }
+
+  .hero h2 {
+    width: 90%;
+  }
+
+  .hero b {
+    font-size: 1.8em;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  .hero .box .boutton {
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+
+  .hero .box img {
+    margin-bottom: 10vh;
+  }
+
+  /* propos */
+  .propos {
+    height: 220vh;
+  }
+
+  .propos b {
+    font-size: 1.8em;
+  }
+
+  .propos .galery {
+    width: 80%;
+    height: 70vh;
+  }
+
+  .propos .description {
+    font-size: 1em;
+  }
+
+  .propos .boutton {
+    left: 20%;
+  }
+
+  /* temoignage */
+  .temoignage {
+    height: 140vh;
+  }
+
+  .temoignage .titre {
+    height: 8vh;
+  }
+
+  .temoignage p {
+    margin-bottom: 8vh;
+  }
+
+  .box2 {
+    width: 90%;
+    height: 10vh;
+    min-height: 0px;
+  }
+
+  /* @@ */
+  /* ******************* */
+  /* ******************* */
+  /* ******************* */
+  /* Media Q Programme */
+
+  /* section appel */
+  .appel {
+    height: 70vh;
+    margin-top: 10vh;
+  }
+
+  .appel b {
+    font-size: 1.5em;
+  }
+
+  .appel .boutton {
+    margin-top: 5vh;
+  }
+
+  .appel img {
+    width: 95%;
+  }
+
+  .appel .box {
+    width: 90%;
+  }
+
+  /* section calendrier */
+  .calendrier {
+    margin-top: 5vh;
+    height: 290vh;
+  }
+
+  .calendrier h2 {
+    height: 10vh;
+  }
+
+  .calendrier b {
+    font-size: 1.5em;
+  }
+
+  .calendrier .galerie {
+    margin-top: 0%;
+  }
+
+  .calendrier .galery {
+    height: 70vh;
+    width: 95%;
+    margin: 2vh;
+  }
+
+  .calendrier .galery h3 {
+    font-size: 1.8em;
+    margin-bottom: auto;
+  }
+
+  .calendrier .galery .date {
+    font-size: 1em;
+  }
+
+  .calendrier .galery .description {
+    font-size: 1.2em;
+  }
+
+  .calendrier .boutton {
+    left: 20%;
+  }
+
+  /* @@ */
+  /* ******************* */
+  /* ******************* */
+  /* ******************* */
+  /* Media Q Contact */
+  .contact {
+    margin-top: 10vh;
+    height: 50vh;
+  }
+
+  .contact b {
+    font-size: 1.5em;
+  }
+
+  .contact .box .boutton {
+    margin-top: 5vh;
+  }
+
+  /* section formulaire */
+  .formulaire {
+    height: 100vh;
+    margin-top: 40vh;
+  }
+
+  .formulaire b {
+    font-size: 1.5em;
+  }
+
+  .formulaire .box label {
+    font-size: 1em;
+  }
+
+  .formulaire .box input {
+    width: 90%;
+  }
+
+  .formulaire .box textarea {
+    width: 90%;
+  }
+
+  /* reste */
+  .coordonnees b {
+    font-size: 1.5em;
+  }
+
+  .mentions_legales .h2 b {
+    font-size: 1.5em;
+  }
+
+  /* @@ */
+  /* ******************* */
+  /* ******************* */
+  /* ******************* */
+  /* Media Q footer */
+
+  .footer {
+    bottom: 0%;
+    display: block;
+    height: 55vh;
+    position: static;
+  }
+
+  .footer .reseau_sociaux {
+    margin-top: 10vh;
+    display: flex;
+  }
+
+  .footer .element {
+    margin: 3vh;
+    font-size: 1.8em;
+  }
+
+  .footer .sousElement {
+    font-size: 1.5em;
+    width: 80%;
+  }
+  .footer .element img {
+    height: 15vh;
+    width: 15vh;
+  }
+}
