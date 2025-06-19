@@ -39,6 +39,11 @@ Le site permet de :
 ## Rapport
 ![image](https://github.com/user-attachments/assets/409b9c28-dac3-499a-a42b-4655f3697703)
 
+![image](https://github.com/user-attachments/assets/77334b9c-38dc-44a0-8502-99415cf0421f)
 
+![image](https://github.com/user-attachments/assets/6324cb9f-03b6-4a4d-a461-760a93d4ad3a)
 
+![image](https://github.com/user-attachments/assets/7885f0d6-4fde-4d52-b6ee-c81d3f27491a)
+
+![image](https://github.com/user-attachments/assets/381fe8f4-1627-4690-9878-f467f695c286)
 
