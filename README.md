@@ -12,6 +12,9 @@ Le site permet de :
 - Afficher des images de réalisations
 - Fournir les mentions légales
 
+## le site
+https://rococo-gnome-162dfc.netlify.app/
+
 ## 🧰 Technologies utilisées
 
 - HTML5
